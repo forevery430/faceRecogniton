@@ -1,0 +1,14 @@
+标题：Session-based Recommendation with Graph Neural Networks
+pdf：https://arxiv.org/pdf/1811.00855.pdf
+github：https://github.com/CRIPAC-DIG/SR-GNN
+简介：
+本文是中国科学院自动化所智能感知与计算中心被 AAAI 2019 接收的论文。
+会话（session）是服务器端用来记录识别用户的一种机制。
+在推荐系统中，基于会话的推荐（session-based recommendation）是依据一个时间窗口内用户连续的行为进行推荐。
+比如，一位用户在登录淘宝的这段时间里连续点击了 10 个商品，那么这 10 个商品就构成了一个会话短序列。
+由于会话数据具有海量、匿名的特点，基于会话的推荐近来受到了广泛的关注。 
+为了更好地捕获会话的结构并考虑节点间的转换，该论文提出了一种基于图形神经网络（graph neural network, GNN）的会话推荐（SR-GNN）方法。
+该方法将所有会话序列聚合在一起并建模为图结构。
+基于该图，GNN 可以捕获项目的转换关系。
+之后 SR-GNN 使用注意力机制将每个会话表示为全局偏好和会话当前兴趣的组合并据此进行推荐。
+在两个开源数据集上，SR-GNN 模型的性能持续并显著地好于其他 SOTA 方法。

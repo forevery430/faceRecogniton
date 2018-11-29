@@ -1,3 +1,4 @@
 标题：Consensus-Driven Propagation in Massive Unlabeled Data for Face Recognition
 pdf：https://arxiv.org/pdf/1809.01407.pdf
 github：https://github.com/XiaohangZhan/cdp/
+简介：本文是商汤科技、香港中文大学和南洋理工大学发表于 ECCV 2018 的工作。在人脸识别数据获取成本越来越高的情况下，作者提出了一种称为 Consensus-Driven Propagation 的模型，采用少量标注数据和大量无标签数据训练，即可获得接近所有数据都有标注的精度。
